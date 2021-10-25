@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+body{
+    background-color: #F7F6E7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading{
+    margin-top: 0.3rem;
+}
+
+.game-status{
+    width: 15rem;
+    margin-top: 0.5rem;
+    align-self: center;
+}
+
+.score-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+
+.player1-score-box{
+    height: 5rem;
+    width: 5rem;
+    background-color: #C9CBFF;
+    margin-right: 4rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    border-radius: 0.4rem;
+}
+
+.player2-score-header{
+    margin-left: 4rem;
+    font-weight: b;
+}
+
+.player2-score-box{
+    height: 5rem;
+    width: 5rem;
+    background-color: #C9CBFF;
+    margin-left: 4rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    border-radius: 0.4rem;
+}
+
+.board{
+    height: 66vh;
+    width: 60vw; 
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.reset-buttons{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reset-board{
+    height: 2rem;
+    width: 10rem;    
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.reset-game{
+    height: 2rem;
+    width: 10rem;    
+    margin-top: 1rem;
+    font-size: 1rem;    
+}
+
+.reset-board:hover{
+    background-color: black;
+    color: white;
+}
+
+.reset-game:hover{
+    background-color: black;
+    color: white;
+}
+
+.board-cell{
+    height: calc( 71vh / 3 );
+    width: calc( 60vw / 3 );
+    font-size: 6rem;
+    font-family: 'ABeeZee', sans-serif;
+    border: 5px solid brown;
+    background-color: #D6E0F0;
+}
