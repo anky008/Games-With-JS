@@ -253,14 +253,14 @@ function highlight_board(row,col,dir){
         }
     }
 
-    if(dir=='c'){
+    else if(dir=='c'){
         for(let r=0;r<3;r++){
             let arr_idx=3*r+col;
             (buttons[arr_idx].style).backgroundColor=dark_color;
         }
     }
 
-    if(dir=='md'){
+    else if(dir=='md'){
         // check main diag
         for(let r=0,c=0;r<3 && c<3;r++,c++){
             let arr_idx=r*3+c;
@@ -268,7 +268,7 @@ function highlight_board(row,col,dir){
         }
     }
 
-    if(dir=='sd'){
+    else if(dir=='sd'){
         for(let r=0,c=2;r<3 && c>=0;r++,c--){
             let arr_idx=r*3+c;
             (buttons[arr_idx].style).backgroundColor=dark_color;

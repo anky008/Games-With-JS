@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+canvas{
+    background-image: url(/images/board.jpeg);
+    width: 60vw;
+    height: 40vw;
+    position: absolute;
+    left: 20vw;
+    top: 15vh;
+    border: 5px solid black;
+}
+
+.score-cont{
+    display: flex;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    position: absolute;
+    left: 45vw;
+    gap: 0.5rem;
+    top: 9.5vh;
+    height: 2.5rem;
+}
+
+.score-img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.score{
+    width: 2rem;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
