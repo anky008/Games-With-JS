@@ -1,0 +1,1 @@
+A Replica Of the chrome dino game made using HTML,CSS And Vanila JS.

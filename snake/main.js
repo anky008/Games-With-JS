@@ -28,7 +28,9 @@ dead.src="audio/dead.mp3";
 
 
 let img = new Image();
-img.src = 'images/apple1.png';
+img.width="5";
+img.height="5";
+img.src = 'images/apple2.png';
 
 ctx.fillStyle = 'black';
 
@@ -77,7 +79,7 @@ function draw_snake() {
 }
 
 function draw_food(){
-    ctx.drawImage(img, food_x, food_y,5,5);
+    ctx.drawImage(img, food_x, food_y,8,8);
 }
 
 function eaten_food(snake_x,snake_y,item_x,item_y){

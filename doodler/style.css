@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid{
+    width: 500px;
+    height: 700px;
+    position: relative;
+    left: 400px;
+    top: 40px;
+    background-color: aquamarine;
+}
+
+.platform-cont{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.platform{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    background-color: green;
+}
+
+.doodler{
+    width: 80px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+}

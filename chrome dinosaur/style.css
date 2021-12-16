@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.game-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.ground{
+    position: absolute;
+    top: 70vh;
+}
+
+.dino{
+    position: absolute;
+    width: 80px;
+    height: 96px;
+    top: 430px;
+    left: 60px;
+}
+
+.cactus{
+    position: absolute;
+    width: 80px;
+    height: 96px;
+    top: 430px;
+}
+
+.start-msg{
+    font-size: 2rem;
+    position: absolute;
+    top: calc(50vh - 5rem - 2rem);
+    left: 45vw;
+}
+
+.replay{
+    position: absolute;
+    top: calc(50vh - 5rem + 1rem);
+    left: 48vw;
+    display: none;
+}
+
+.score-box{
+    position: absolute;
+    left: 50vw;
+    font-size: 4rem;
+}
+
+.ground{
+    width: 100%;
+}
+
