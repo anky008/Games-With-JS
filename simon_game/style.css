@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: purple;
+}
+
+.game-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 6rem;
+    overflow: hidden;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.level-header{
+    font-size: 5rem;
+    font-weight: bolder;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.top-row{
+    display: flex;
+    gap: 2rem;
+}
+
+.bottom-row{
+    display: flex;
+    gap: 2rem;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 10px solid black;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
